@@ -8,11 +8,11 @@ geospatial AI.
 
 ### Dark vessel detection
 
-Detecting undeclared vessels by fusing Sentinel-1 SAR imagery with AIS records over
+Detecting undeclared vessels with deep learning on Sentinel-1 SAR, fused with AIS over
 Danish waters. 189 detections over 50 acquisitions of the northern Kattegat, 40 of them
-undeclared. Supervised detection on radar, full-scene georeferenced inference,
-spatio-temporal fusion with declared positions, and a spatial analysis of where
-undeclared traffic concentrates.
+undeclared. Supervised object detection and self-supervised embeddings on radar,
+full-scene georeferenced inference, spatio-temporal fusion with declared positions, and a
+spatial analysis of where undeclared traffic concentrates.
 
 [The code](https://github.com/esamoun/dark-vessel-detection) ·
 [the detections on a map](https://esamoun.github.io/dark-vessel-detection/)
